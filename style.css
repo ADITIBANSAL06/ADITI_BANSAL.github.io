@@ -21,7 +21,7 @@ nav ul li a:hover { color: var(--primary); }
 .hero { height: 100vh; display: flex; align-items: center; justify-content: center; text-align: center; background: radial-gradient(circle at top right, #e0e7ff, transparent), radial-gradient(circle at bottom left, #f1f5f9, transparent); }
 /*.hero h1 { font-size: 3.5rem; color: white ; margin-bottom: 1rem; }*/
 .hero h1 {
-    color:white
+    color:white;
     font-size: 4rem;
     margin-bottom: 1rem;
     font-weight: 700;
