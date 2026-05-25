@@ -19,7 +19,16 @@ nav ul li a:hover { color: var(--primary); }
 
 /* Hero */
 .hero { height: 100vh; display: flex; align-items: center; justify-content: center; text-align: center; background: radial-gradient(circle at top right, #e0e7ff, transparent), radial-gradient(circle at bottom left, #f1f5f9, transparent); }
-.hero h1 { font-size: 3.5rem; color: white ; margin-bottom: 1rem; }
+/*.hero h1 { font-size: 3.5rem; color: white ; margin-bottom: 1rem; }*/
+.hero h1 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+
+    background: linear-gradient(to right, #ffffff, #60a5fa);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 .btn { background: var(--primary); color: white; padding: 12px 30px; border-radius: 8px; text-decoration: none; font-weight: 600; display: inline-block; margin-top: 20px; transition: 0.3s; }
 .btn:hover { transform: translateY(-3px); box-shadow: 0 10px 20px rgba(37, 99, 235, 0.2); }
 
